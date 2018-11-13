@@ -1,0 +1,40 @@
+.headerContainer {
+  padding: 20px;
+  background: hsla(334, 71%, 25%, 0.3);
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 20px -4px rgba(0, 0, 0, 0.4);
+  width: 40%;
+  margin: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.avatar {
+  height: 50px;
+  border-radius: 50%;
+}
+.login {
+  color: hsl(0, 0%, 0%);
+  font-size: 20px;
+  font-style: italic;
+  margin: 0px 5px;
+  font-weight: 600;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.info p {
+  color: hsl(0, 0%, 0%);
+  margin: 5px;
+  font-size: 15px;
+}
+.headerContainer:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.title {
+  font-size: 20px;
+  font-weight: 800;
+}

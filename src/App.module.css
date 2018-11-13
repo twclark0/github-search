@@ -1,0 +1,76 @@
+.App {
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(
+    to right bottom,
+    #c9b0a0,
+    #a59e87,
+    #7f8c78,
+    #5d796f,
+    #436467
+  );
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+.input {
+  color: hsl(0, 0%, 0%);
+  background: none;
+  border: none;
+  border-bottom: 1px solid hsl(0, 0%, 30%);
+  font-size: 30px;
+  font-weight: 900;
+  padding: 5px;
+  height: auto;
+  margin: 0;
+  width: 75%;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+}
+.inputContainer {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  padding: 35px 0;
+}
+input::-webkit-input-placeholder {
+  color: hsl(0, 0%, 40%);
+}
+input::-moz-placeholder {
+  color: hsl(0, 0%, 40%);
+}
+input:-ms-input-placeholder {
+  color: hsl(0, 0%, 40%);
+}
+input:-moz-placeholder {
+  color: hsl(0, 0%, 40%);
+}
+.ulContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.arrows {
+  text-align: center;
+  margin: 25px 0;
+}
+.left {
+  font-size: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.right {
+  font-size: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+.count {
+  font-size: 25px;
+  margin: 5px 10px;
+}
